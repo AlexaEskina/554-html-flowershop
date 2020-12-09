@@ -14,18 +14,15 @@
     text-decoration: none;
     letter-spacing:1px;
     margin-left: 50px;
-     
 }
 
 .menu a:hover{
     color:#b5352b;
-   
 }
 
 h1{
     font-family: 'Rubik', sans-serif;
     font-size: 95px;
-   
 }
 
 nav{
@@ -69,13 +66,11 @@ main p{
     font-family: 'Rubik', sans-serif;
     font-size: 24px; 
     color: #16191c;
-   
 }
 .flowers-info > article > p:nth-child(3){
     font-family: 'Noto Sans', sans-serif;
     font-size: 16px; 
     color: #494d51;
-
 }
 
 div.tulip.picture > img {
