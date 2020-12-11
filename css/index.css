@@ -1,13 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Rubik:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,600&display=swap');
 
 body{
     margin: auto;
-}
-
-.root {
-    --main color: rgb(255,193,50);
 }
 
 .logo {
@@ -15,22 +11,25 @@ body{
     font-family: 'Dancing Script', cursive;
     font-size: 25px;
     text-align: left; 
+    margin-left: 30px;
 }
 
 nav .menu{
     display: grid;
-}
+} 
 
 @media (min-width: 950px) {
 
     nav{
        display: flex;
+       /* margin-left: 25px;  */
    }
    nav .menu {
        display: inline;
        align-items: center;
        position: absolute;
        right: 10px;
+       
    }
    
 }
@@ -41,6 +40,8 @@ nav .menu a{
     letter-spacing: 1px;
     padding: 10px;
     color: #FFFFFF;
+    margin-left: 25px; 
+    
 }
 
 nav .menu a:hover{
@@ -50,29 +51,55 @@ nav .menu a:hover{
 header {
     background-image: url(../img/backgroung.png);
     padding-top: 80px;
+    padding-bottom: 100px;
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-h1{
+.banner h1{
     font-family: 'Rubik', sans-serif;
-    font-size: 95px;
+    font-size: 77.5px;
+    color: white;
+    display: table-caption;
+    margin-left: 25px;
+
 }
 
 .banner button{
-    color: black;
-    padding: 20px 30px;
+    
+    padding: 18px 28px;
     margin: 10px 20px;
-    border-radius: 8px;
-    background-color: white;
+    border-radius: 5px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 16px;
+    /* margin: 25px 10px 70px 25px; */
 }
-.banner button:hover{
-    color:#b5352b;
+.ticket{
+    background-color:#f2254c;
+    color: white;
+    border: 2px solid #f2254c; 
+    transition-duration: 0.4s;
+
+}
+.ticket:hover{
+    background-color:#16191c;
+    color:white;
+    border: 2px solid #16191c;
+}
+.learn-more{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white; 
+    transition-duration: 0.4s;
+}
+.learn-more:hover{
+    background-color:white;
+    color:#16191c;
+    border: 2px solid white;
 }
 
-main h2{
+ main h2{
     font-size: 42px;
     font-family: 'Rubik', sans-serif;
     text-align: center;
