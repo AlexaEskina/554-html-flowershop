@@ -22,14 +22,14 @@ nav .menu{
 
     nav{
        display: flex;
-       /* margin-left: 25px;  */
+      
    }
    nav .menu {
        display: inline;
        align-items: center;
        position: absolute;
        right: 10px;
-       
+   
    }
    
 }
@@ -61,7 +61,7 @@ header {
     font-family: 'Rubik', sans-serif;
     font-size: 77.5px;
     color: white;
-    display: table-caption;
+    /* display: table-caption; */
     margin-left: 25px;
 
 }
