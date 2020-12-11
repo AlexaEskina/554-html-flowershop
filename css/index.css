@@ -22,16 +22,13 @@ nav .menu{
 
     nav{
        display: flex;
-      
    }
    nav .menu {
        display: inline;
        align-items: center;
        position: absolute;
        right: 10px;
-   
    }
-   
 }
 
 nav .menu a{
@@ -40,8 +37,7 @@ nav .menu a{
     letter-spacing: 1px;
     padding: 10px;
     color: #FFFFFF;
-    margin-left: 25px; 
-    
+    margin-left: 25px;   
 }
 
 nav .menu a:hover{
@@ -57,17 +53,15 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .banner h1{
     font-family: 'Rubik', sans-serif;
     font-size: 77.5px;
     color: white;
-    /* display: table-caption; */
     margin-left: 25px;
-
 }
 
 .banner button{
-    
     padding: 18px 28px;
     margin: 10px 20px;
     border-radius: 5px;
@@ -75,7 +69,7 @@ header {
     font-size: 16px;
     /* margin: 25px 10px 70px 25px; */
 }
-.ticket{
+button.ticket{
     background-color:#f2254c;
     color: white;
     border: 2px solid #f2254c; 
@@ -87,7 +81,7 @@ header {
     color:white;
     border: 2px solid #16191c;
 }
-.learn-more{
+button.learn-more{
     background-color: transparent;
     color: white;
     border: 2px solid white; 
@@ -98,11 +92,22 @@ header {
     color:#16191c;
     border: 2px solid white;
 }
-
+.amazing {
+    background-color:#d9dddc;
+    margin-top:-40px;
+}
  main h2{
     font-size: 42px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-align: center;
+    padding-top: 120px;
+}
+
+main h3{
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+    color:#494d51;
 }
 
 main p{
@@ -112,9 +117,9 @@ main p{
 }
 
 .flowers-info{
-    column-count: 3;
+    column-count: 3; 
 }
-
+ 
 .flowers-info > article h2 {
     color: rgb(255,193,50);
     font-family: 'Rubik', sans-serif;
